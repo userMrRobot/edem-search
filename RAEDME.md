@@ -1,10 +1,17 @@
-# Bracket Search
+# Search
 
-A simple library to validate bracket placements in expressions.
+Библиотека для проверки сбалансированности скобок в строках.
 
-## Installation
+Пример использования
 
-Install via Composer:
+use Src\Search;
+
+$result = Search::search('(1 + 2) * (3 / 4)');  // true
+
+$result = Search::search('(1 + 2 * (3 / 4)');    // false
+## Установка
+
+Для того чтобы установить эту библиотеку, используйте Composer:
 
 ```bash
 composer require edem/search
