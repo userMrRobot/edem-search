@@ -2,11 +2,9 @@
   "name": "edem/search",
   "description": "A simple PHP utility to check bracket balance in expressions",
   "version": "1.0.0",
-
   "require-dev": {
     "phpunit/phpunit": "^12.0"
   },
-
   "autoload": {
     "psr-4": {
       "Src\\": "src/"
@@ -18,7 +16,14 @@
     }
   },
   "scripts": {
-  "test": "phpunit"
-}
-
+    "test": "phpunit"
+  },
+  "authors": [
+    {
+      "name": "Edem",
+      "email": "your-email@example.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
